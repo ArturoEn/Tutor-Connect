@@ -1,0 +1,17 @@
+
+Paleta de colores:
+
+#F1B434 Anaranjado
+#004C97 Azul
+#b2cdf0 Color de los formularios
+
+Funciones CSS:
+
+Pading: 10px; hace la caja o el contenedor mas grande.
+Margin: auto; Establece un amrgen para los 4 lados.
+Display: flex; Funcion para adaptar la caja trasera.
+Justify-content: center; Sirve para centrar la caja automaticamente en la ventana.
+background-color: ; Color de fondo de la caja.
+backdrop-filter: blur (10px); Sirve para hacer transparente el fondo de la caja. (no jala)
+transition: all 900ms; funcion para que el contenido aparesca o desaparesca.
+border: 2px solid color; Crea un borde

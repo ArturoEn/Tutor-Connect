@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(73, 33, 0, 0.8)), url(/Tutor-Connect/ayuda/img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+.contenedor_perfiles {
+    padding-top: 50px;
+    margin: auto;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contenedor_foto {
+    margin-top: 20px;
+    text-align: center;
+}
+.contenedor_foto img {
+    max-width: 200px;
+    border-radius: 20px;
+    border: 2px solid #F1B434;
+}
+.contenedor_perfil {
+    width: 32%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 3px solid #F1B434;
+    background-color: rgb(255, 255, 255);
+    color: #333;
+}
+.informacion p,
+.informacion a {
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+.buscar {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.buscar input {
+    padding-left: 10px;
+    width: 200px;
+    height: 35px;
+    border: 2px solid #F1B434;
+    border-radius: 10px;
+    background: #ffffff;
+    font-size: 16px;
+    outline: none;
+}
+.buscar button {
+    background-color: #ffffff;
+    color: #004C97;
+    padding: 4px 20px;
+    border: 2px solid #004C97;
+    border-radius: 10px;
+    margin: 10px;
+    transition: all 600ms;
+}
+.buscar button:hover {
+    border: 2px solid #F1B434;
+}

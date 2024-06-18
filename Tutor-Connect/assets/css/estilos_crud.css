@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../images/fondo1.png);
+    /* background: linear-gradient(rgba(0 0 0 / .8), rgba(0 0 0 / .8)), url(/Tutor-Connect/ayuda/img/bg.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    color: #004C97;
+}
+
+.contenedor {
+    border: 2px solid #004C97;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor_foto {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenedor_foto img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #004C97;
+}
+.informacion a, button{
+    margin-left: 45px;
+}
+
+.informacion p {
+    margin-left: 30%;
+    margin-bottom: 15px;
+}
+
+a, button{
+    display: inline-block;
+    background-color: #ffffff;
+    color: #004C97;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #004C97;
+    border-radius: 10px;
+    margin: 10px;
+    transition: all 600ms;
+}
+
+button:hover {
+    border: 2px solid #F1B434;
+    color: #F1B434;
+}
+
+
+a:hover {
+    border: 2px solid #F1B434;
+    color: #F1B434;
+}
+
+.informacion input{
+    width: 70%; /* Porcentaje de lo largo de los formularios en la caja blanca */
+    margin-top: 20px; /* Espacio acia arriba de los formularios */
+    margin-left: 15%;
+    padding: 10px;
+    border: none; /* Quita el borde de los formularios */
+    background: #b2cdf0; /* Color de los formularios */
+    font-size: 16px;
+    outline: none; /* Quitar el contorno al los formularios cuando estan seleccionados */
+}
+
+.boton{
+    margin-left: 300px;
+}
